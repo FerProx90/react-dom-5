@@ -20,7 +20,7 @@ export const Navigation = () => {
             <ul>
               {routes.map(({ to, name }) => (
                 <li key={name}>
-                  <NavLink to={to} activeClassName="nav-active" exact>
+                  <NavLink to={to} activeClassName="nav-active">
                     {name}
                   </NavLink>
                 </li>
